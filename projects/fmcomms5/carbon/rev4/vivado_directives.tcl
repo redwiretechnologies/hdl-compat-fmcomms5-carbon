@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: Apache-2.0
+
 set_property STEPS.SYNTH_DESIGN.ARGS.DIRECTIVE PerformanceOptimized [get_runs synth_1]
 set_property STEPS.SYNTH_DESIGN.ARGS.RETIMING true [get_runs synth_1]
 set_property STEPS.SYNTH_DESIGN.ARGS.NO_LC true [get_runs synth_1]

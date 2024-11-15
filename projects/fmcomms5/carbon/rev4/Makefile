@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: Apache-2.0
+
 PROJECT_NAME := carbon_fmcomms5
 REVISION := rev4
 M_CUSTOM_LIBS :=
