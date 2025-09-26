@@ -170,7 +170,8 @@ module system_top (
 
   line_matrix_0
   gpo_matrix
-    ( .clk(gpio_o[0]),
+    ( .sys_clk(ad_clk_ref),
+      .clk_pin(gpio_o[0]),
       .rstn(gpio_o[1]),
       .input_lines({ad_rfic_gpo_1, ad_rfic_gpo_0}),
       .output_lines({rfp_gpo_3, rfp_gpo_2, rfp_gpo_1, rfp_gpo_0}),
